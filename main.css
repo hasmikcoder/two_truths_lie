@@ -4,3 +4,59 @@
 html {
     font-size: 62.5%; /* 1rem = 10px - use rem */
 }
+
+.box {
+  background-color: white;
+  position: absolute;
+  top : 20rem;
+  left: 30rem;
+  width: 35rem;
+  height: 27rem;
+  border: 1px solid black;
+  border-radius: 8px;
+  }
+
+h1 {
+   text-align: left;
+   font-family: sans-serif;
+   font-weight: normal;
+   padding-left: 15px;
+ }
+
+ p {
+   font-size: 16px;
+
+ }
+
+  button {
+   background-color: white;
+   border: 2px solid #E8D284;
+   border-radius: 10px;
+   color:#191D32;
+   padding: 10px 10px;
+   display: block;
+   font-size: 16px;
+   margin: 5px 13px;
+   width: 325px;
+   height: 50px;
+ }
+ button:hover {
+   background-color: #E8D284;
+}
+body {
+  background-color: #191D32;
+}
+
+#next {
+  display: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 800;
+  background-color: #62B6CB;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+  margin-left: 145px;
+}
